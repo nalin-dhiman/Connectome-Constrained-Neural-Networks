@@ -1,4 +1,4 @@
-# Connectome-Constrained Neural Networks: Clean Control-Study Release
+# Connectome-Constrained Neural Networks:Control-Study Release
 
 This repository packages the code, curated results, figures, and lightweight tables for a controlled
 connectome-vs-random graph study. The central corrected conclusion is deliberately narrow:
