@@ -7,23 +7,17 @@ connectome-vs-random graph study. The central corrected conclusion is deliberate
 > initialization and null-model design, and do not robustly persist under degree-preserving controls.
 
 The release is designed for inspection, lightweight reproduction, and reviewer-friendly auditing.
-It is not a manuscript repository and it does not bundle the LaTeX paper sources.
 
-## What This Repository Contains
+## Repository Contains
 
 - Core matched-step comparison code for the original connectome-vs-random analysis
 - Revision-control experiments that remove checkpoint-initialization confounds and strengthen the null model
 - Mechanism-analysis scripts and lightweight summary tables
-- Final figures used in the paper package as `.png` and `.pdf`
+- Final figures  as `.png` and `.pdf`
 - Clear documentation for the control ladder and the limits of the claim
 
-## What It Does Not Contain
 
-- LaTeX paper sources, manuscript folders, or `submission_package/`
-- Large training checkpoints, saved activity tensors, or heavy rewired-mask ensembles
-- Raw logs or scratch notebooks
-
-## Key Result in One Paragraph
+## Key Result
 
 The project initially appeared to show strong connectome advantages over a sparse random control in
 loss, activity, and runtime. Those early results were confounded by checkpoint-based initialization
@@ -122,7 +116,4 @@ See [docs/controls_explained.md](docs/controls_explained.md).
 - Some structured synthetic controls were unstable and are archived as negative or inconclusive branches
 
 ## Citation
-
-If you use this repository, cite the associated control-study paper and explicitly note that this
-release omits the manuscript source files. A lightweight citation placeholder is provided in
-[docs/project_overview.md](docs/project_overview.md).
+- Will update :) 
