@@ -1,0 +1,76 @@
+{
+  "batch_info": {
+    "generalization_config": {
+      "dataset_t_post": 1.0,
+      "dataset_t_pre": 1.0,
+      "dt": 0.02,
+      "intensities": [
+        0,
+        1
+      ],
+      "steady_state_seconds": 0.25,
+      "test_speed_values": [
+        19.0
+      ],
+      "train_speed_values": [
+        2.4
+      ]
+    },
+    "max_iters": 10,
+    "task_definition": "Canonical Stage 3 task: linear decoder predicts 2D edge direction (cos(theta), sin(theta)) from mean central-cell activity during the stimulus window.",
+    "train_angles": [
+      0,
+      60,
+      120,
+      180,
+      240,
+      300
+    ],
+    "train_batch_size": 12,
+    "train_frames": 269,
+    "train_input_shape": [
+      12,
+      269,
+      1,
+      721
+    ],
+    "train_speeds": [
+      2.4
+    ]
+  },
+  "connectome": {
+    "final_activity_abs_mean": 0.6915462613105774,
+    "final_task_loss": 0.49343740940093994,
+    "fixed_parameters": 2959,
+    "free_parameters": 734,
+    "iterations_completed": 10,
+    "iterations_requested": 10,
+    "mask_type": "ConnectomeFromAvgFilters",
+    "mean_iter_total_sec": 55.22232097999658,
+    "model_kind": "connectome",
+    "n_edges": 1513231,
+    "n_nodes": 45669,
+    "remained_finite": true,
+    "seed": 1,
+    "self_loops": 12380,
+    "total_elapsed_sec": 552.2247334949789
+  },
+  "random": {
+    "final_activity_abs_mean": 1.37099289894104,
+    "final_task_loss": 0.6192212700843811,
+    "fixed_parameters": 2959,
+    "free_parameters": 734,
+    "iterations_completed": 10,
+    "iterations_requested": 10,
+    "mask_type": "RandomMaskConnectome",
+    "mean_iter_total_sec": 64.96113589979942,
+    "model_kind": "random",
+    "n_edges": 1513231,
+    "n_nodes": 45669,
+    "remained_finite": true,
+    "seed": 1,
+    "self_loops": 12380,
+    "total_elapsed_sec": 649.6130397449888
+  },
+  "seed": 1
+}

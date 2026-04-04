@@ -1,0 +1,297 @@
+{
+  "batch_info": {
+    "generalization_config": {
+      "dataset_t_post": 1.0,
+      "dataset_t_pre": 1.0,
+      "dt": 0.02,
+      "intensities": [
+        0,
+        1
+      ],
+      "steady_state_seconds": 0.25,
+      "test_speed_values": [
+        19.0
+      ],
+      "train_speed_values": [
+        2.4
+      ]
+    },
+    "max_iters": 5,
+    "null_type": "degree_preserving_random",
+    "task_definition": "Canonical Stage 3 task: linear decoder predicts 2D edge direction (cos(theta), sin(theta)) from mean central-cell activity during the stimulus window.",
+    "train_angles": [
+      0,
+      60,
+      120,
+      180,
+      240,
+      300
+    ],
+    "train_batch_size": 12,
+    "train_frames": 269,
+    "train_input_shape": [
+      12,
+      269,
+      1,
+      721
+    ],
+    "train_speeds": [
+      2.4
+    ]
+  },
+  "max_iters": 5,
+  "phase": "phase2_degree_preserving",
+  "seed_summaries": [
+    {
+      "baseline_checkpoint_path_for_reference_only": "flyvis/data/results/flow/0000/000/chkpts/chkpt_00000",
+      "batch_info": {
+        "generalization_config": {
+          "dataset_t_post": 1.0,
+          "dataset_t_pre": 1.0,
+          "dt": 0.02,
+          "intensities": [
+            0,
+            1
+          ],
+          "steady_state_seconds": 0.25,
+          "test_speed_values": [
+            19.0
+          ],
+          "train_speed_values": [
+            2.4
+          ]
+        },
+        "max_iters": 5,
+        "null_type": "degree_preserving_random",
+        "task_definition": "Canonical Stage 3 task: linear decoder predicts 2D edge direction (cos(theta), sin(theta)) from mean central-cell activity during the stimulus window.",
+        "train_angles": [
+          0,
+          60,
+          120,
+          180,
+          240,
+          300
+        ],
+        "train_batch_size": 12,
+        "train_frames": 269,
+        "train_input_shape": [
+          12,
+          269,
+          1,
+          721
+        ],
+        "train_speeds": [
+          2.4
+        ]
+      },
+      "connectome": {
+        "final_activity_abs_mean": 0.5526422262191772,
+        "final_task_loss": 0.5206182599067688,
+        "fixed_parameters": 2959,
+        "free_parameters": 734,
+        "init_mode": "from_scratch",
+        "iterations_completed": 5,
+        "iterations_requested": 5,
+        "mask_type": "ConnectomeFromAvgFilters",
+        "mean_iter_total_sec": 24.995241145400133,
+        "model_kind": "connectome",
+        "n_edges": 1513231,
+        "n_nodes": 45669,
+        "remained_finite": true,
+        "seed": 0,
+        "self_loops": 12380,
+        "total_elapsed_sec": 124.97686648500007
+      },
+      "degree_mask_path": "results/degree_preserving_random_mask.pt",
+      "degreepres": {
+        "final_activity_abs_mean": 0.5402497053146362,
+        "final_task_loss": 0.5234662890434265,
+        "fixed_parameters": 2959,
+        "free_parameters": 734,
+        "init_mode": "from_scratch",
+        "iterations_completed": 5,
+        "iterations_requested": 5,
+        "mask_type": "DegreePreservingRandomConnectome",
+        "mean_iter_total_sec": 27.643456331200014,
+        "model_kind": "degreepres",
+        "n_edges": 1513231,
+        "n_nodes": 45669,
+        "remained_finite": true,
+        "seed": 0,
+        "self_loops": 12380,
+        "total_elapsed_sec": 138.21789812899988
+      },
+      "initialization_mode": "from_scratch_no_checkpoint",
+      "seed": 0
+    },
+    {
+      "baseline_checkpoint_path_for_reference_only": "flyvis/data/results/flow/0000/000/chkpts/chkpt_00000",
+      "batch_info": {
+        "generalization_config": {
+          "dataset_t_post": 1.0,
+          "dataset_t_pre": 1.0,
+          "dt": 0.02,
+          "intensities": [
+            0,
+            1
+          ],
+          "steady_state_seconds": 0.25,
+          "test_speed_values": [
+            19.0
+          ],
+          "train_speed_values": [
+            2.4
+          ]
+        },
+        "max_iters": 5,
+        "null_type": "degree_preserving_random",
+        "task_definition": "Canonical Stage 3 task: linear decoder predicts 2D edge direction (cos(theta), sin(theta)) from mean central-cell activity during the stimulus window.",
+        "train_angles": [
+          0,
+          60,
+          120,
+          180,
+          240,
+          300
+        ],
+        "train_batch_size": 12,
+        "train_frames": 269,
+        "train_input_shape": [
+          12,
+          269,
+          1,
+          721
+        ],
+        "train_speeds": [
+          2.4
+        ]
+      },
+      "connectome": {
+        "final_activity_abs_mean": 0.5207048058509827,
+        "final_task_loss": 0.5063655972480774,
+        "fixed_parameters": 2959,
+        "free_parameters": 734,
+        "init_mode": "from_scratch",
+        "iterations_completed": 5,
+        "iterations_requested": 5,
+        "mask_type": "ConnectomeFromAvgFilters",
+        "mean_iter_total_sec": 23.986423506399934,
+        "model_kind": "connectome",
+        "n_edges": 1513231,
+        "n_nodes": 45669,
+        "remained_finite": true,
+        "seed": 1,
+        "self_loops": 12380,
+        "total_elapsed_sec": 119.93276105199993
+      },
+      "degree_mask_path": "results/degree_preserving_random_mask.pt",
+      "degreepres": {
+        "final_activity_abs_mean": 0.517039954662323,
+        "final_task_loss": 0.5076764225959778,
+        "fixed_parameters": 2959,
+        "free_parameters": 734,
+        "init_mode": "from_scratch",
+        "iterations_completed": 5,
+        "iterations_requested": 5,
+        "mask_type": "DegreePreservingRandomConnectome",
+        "mean_iter_total_sec": 25.200168309199853,
+        "model_kind": "degreepres",
+        "n_edges": 1513231,
+        "n_nodes": 45669,
+        "remained_finite": true,
+        "seed": 1,
+        "self_loops": 12380,
+        "total_elapsed_sec": 126.00130704499998
+      },
+      "initialization_mode": "from_scratch_no_checkpoint",
+      "seed": 1
+    },
+    {
+      "baseline_checkpoint_path_for_reference_only": "flyvis/data/results/flow/0000/000/chkpts/chkpt_00000",
+      "batch_info": {
+        "generalization_config": {
+          "dataset_t_post": 1.0,
+          "dataset_t_pre": 1.0,
+          "dt": 0.02,
+          "intensities": [
+            0,
+            1
+          ],
+          "steady_state_seconds": 0.25,
+          "test_speed_values": [
+            19.0
+          ],
+          "train_speed_values": [
+            2.4
+          ]
+        },
+        "max_iters": 5,
+        "null_type": "degree_preserving_random",
+        "task_definition": "Canonical Stage 3 task: linear decoder predicts 2D edge direction (cos(theta), sin(theta)) from mean central-cell activity during the stimulus window.",
+        "train_angles": [
+          0,
+          60,
+          120,
+          180,
+          240,
+          300
+        ],
+        "train_batch_size": 12,
+        "train_frames": 269,
+        "train_input_shape": [
+          12,
+          269,
+          1,
+          721
+        ],
+        "train_speeds": [
+          2.4
+        ]
+      },
+      "connectome": {
+        "final_activity_abs_mean": 0.5626636147499084,
+        "final_task_loss": 0.5195991396903992,
+        "fixed_parameters": 2959,
+        "free_parameters": 734,
+        "init_mode": "from_scratch",
+        "iterations_completed": 5,
+        "iterations_requested": 5,
+        "mask_type": "ConnectomeFromAvgFilters",
+        "mean_iter_total_sec": 24.665734850799982,
+        "model_kind": "connectome",
+        "n_edges": 1513231,
+        "n_nodes": 45669,
+        "remained_finite": true,
+        "seed": 2,
+        "self_loops": 12380,
+        "total_elapsed_sec": 123.32931182499988
+      },
+      "degree_mask_path": "results/degree_preserving_random_mask.pt",
+      "degreepres": {
+        "final_activity_abs_mean": 0.547030508518219,
+        "final_task_loss": 0.5164135098457336,
+        "fixed_parameters": 2959,
+        "free_parameters": 734,
+        "init_mode": "from_scratch",
+        "iterations_completed": 5,
+        "iterations_requested": 5,
+        "mask_type": "DegreePreservingRandomConnectome",
+        "mean_iter_total_sec": 25.832933477799997,
+        "model_kind": "degreepres",
+        "n_edges": 1513231,
+        "n_nodes": 45669,
+        "remained_finite": true,
+        "seed": 2,
+        "self_loops": 12380,
+        "total_elapsed_sec": 129.16521739000018
+      },
+      "initialization_mode": "from_scratch_no_checkpoint",
+      "seed": 2
+    }
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ]
+}

@@ -1,0 +1,5 @@
+control,status,summary
+weak_activity_regularization,negative,Weak regularization did not benefit the connectome more than the matched random graph under 5-step matched training.
+fragility_analysis,negative,Fragility claims were not supported strongly enough to retain in the main paper.
+smallworld_structured_null,inconclusive,Structured small-world control became non-finite before a fair 5-step comparison.
+ring_lattice_structured_null,inconclusive,Ring-lattice control became non-finite before a fair 5-step comparison.

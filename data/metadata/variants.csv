@@ -1,0 +1,4 @@
+variant,lambda_act
+baseline,0.0
+weak,0.02
+moderate,0.05

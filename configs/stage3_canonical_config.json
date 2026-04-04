@@ -1,0 +1,92 @@
+{
+  "baseline_checkpoint": "flyvis/data/results/flow/0000/000/chkpts/chkpt_00000",
+  "batch_config": {
+    "angles": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "dataset_t_post": 1.0,
+    "dataset_t_pre": 1.0,
+    "dt": 0.02,
+    "intensities": [
+      0,
+      1
+    ],
+    "speed": 2.4,
+    "steady_state_seconds": 0.25
+  },
+  "feature_start": 50,
+  "feature_stop": 220,
+  "learning_rate": 0.001,
+  "n_iters": 15,
+  "seed": 7,
+  "stimulus_subset": [
+    {
+      "angle": 0,
+      "dataset_index": 0,
+      "intensity": 0,
+      "speed": 2.4,
+      "t_stim": 3.394396551724138,
+      "width": 80
+    },
+    {
+      "angle": 0,
+      "dataset_index": 6,
+      "intensity": 1,
+      "speed": 2.4,
+      "t_stim": 3.394396551724138,
+      "width": 80
+    },
+    {
+      "angle": 90,
+      "dataset_index": 36,
+      "intensity": 0,
+      "speed": 2.4,
+      "t_stim": 3.394396551724138,
+      "width": 80
+    },
+    {
+      "angle": 90,
+      "dataset_index": 42,
+      "intensity": 1,
+      "speed": 2.4,
+      "t_stim": 3.394396551724138,
+      "width": 80
+    },
+    {
+      "angle": 180,
+      "dataset_index": 72,
+      "intensity": 0,
+      "speed": 2.4,
+      "t_stim": 3.394396551724138,
+      "width": 80
+    },
+    {
+      "angle": 180,
+      "dataset_index": 78,
+      "intensity": 1,
+      "speed": 2.4,
+      "t_stim": 3.394396551724138,
+      "width": 80
+    },
+    {
+      "angle": 270,
+      "dataset_index": 108,
+      "intensity": 0,
+      "speed": 2.4,
+      "t_stim": 3.394396551724138,
+      "width": 80
+    },
+    {
+      "angle": 270,
+      "dataset_index": 114,
+      "intensity": 1,
+      "speed": 2.4,
+      "t_stim": 3.394396551724138,
+      "width": 80
+    }
+  ],
+  "task_definition": "Linear decoder predicts 2D edge direction (cos(theta), sin(theta)) from mean central-cell activity during the stimulus window on a fixed MovingEdge batch."
+}

@@ -1,0 +1,13 @@
+{
+  "density": 0.0007255414447204164,
+  "duplicate_edges": 0,
+  "fixed_parameters": 2959,
+  "free_parameters": 734,
+  "mask_path": "results/random_mask_selfloop.pt",
+  "n_edges": 1513231,
+  "n_nodes": 45669,
+  "original_self_loops": 12380,
+  "random_self_loops": 12380,
+  "seed": 0,
+  "unchanged_edge_fraction": 0.0
+}
