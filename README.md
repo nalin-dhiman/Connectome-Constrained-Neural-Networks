@@ -16,6 +16,7 @@ The release is designed for inspection, lightweight reproduction, and reviewer-f
 - Final figures  as `.png` and `.pdf`
 - Clear documentation for the control ladder and the limits of the claim
 
+<img width="814" height="145" alt="image" src="https://github.com/user-attachments/assets/072d4db4-50fe-44c6-9f26-3b400f01955c" />
 
 ## Key Result
 
