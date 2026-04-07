@@ -117,4 +117,4 @@ See [docs/controls_explained.md](docs/controls_explained.md).
 - Some structured synthetic controls were unstable and are archived as negative or inconclusive branches
 
 ## Citation
-- Will update :) 
+ "- arXiv:2604.04033 [q-bio.NC] - Nalin Dhiman, *Topological Sensitivity in Connectome-Constrained Neural Networks* (2026-04-05). DOI:10.48550/arXiv.2604.04033" 
