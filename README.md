@@ -122,7 +122,8 @@ If you use this work, please cite:
 Dhiman, N. (2026). Topological Sensitivity in Connectome-Constrained Neural Networks.
 arXiv:2604.04033.
 https://doi.org/10.48550/arXiv.2604.04033
-'''bibtex
+
+```bibtex
 
 @misc{dhiman2026topologicalsensitivityconnectomeconstrainedneural,
   title={Topological Sensitivity in Connectome-Constrained Neural Networks},
@@ -134,5 +135,6 @@ https://doi.org/10.48550/arXiv.2604.04033
   doi={10.48550/arXiv.2604.04033},
   url={https://arxiv.org/abs/2604.04033}
 }
-'''
-https://img.shields.io/badge/DOI-10.48550%252FarXiv.2604.04033-blue
+ ```
+
+[![DOI](https://img.shields.io/badge/DOI-10.48550%252FarXiv.2604.04033-blue)
