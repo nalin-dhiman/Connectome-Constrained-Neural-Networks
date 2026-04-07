@@ -137,5 +137,5 @@ https://doi.org/10.48550/arXiv.2604.04033
 }
  ```
 
-![DOI](https://img.shields.io/badge/DOI-10.48550%252FarXiv.2604.04033-blue)(https://doi.org/10.48550/arXiv.2604.04033)
+[![DOI](https://img.shields.io/badge/DOI-10.48550%252FarXiv.2604.04033-blue)](https://doi.org/10.48550/arXiv.2604.04033)
 
